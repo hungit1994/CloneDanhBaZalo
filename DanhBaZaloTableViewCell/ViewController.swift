@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let datas = createData()
+    let datas1 = createData1()
+    let datas2 = createData2()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,27 +57,26 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             let cell = tableView.dequeueReusableCell(withIdentifier: "DanhBaZaloCell", for: indexPath
                 ) as! DanhBaZaloCell
 
-
             cell.photoImageView.image = UIImage(named: datas[indexPath.row].imageName)
-            
             cell.nameLabel.text = datas[indexPath.row].titleName
-            
-            
             return cell
+            
         case 1:
             let cell = tableView.dequeueReusableCell(withIdentifier: "DanhBaZaloCell", for: indexPath
             ) as! DanhBaZaloCell
             
-            cell.nameLabel.text = datas[indexPath.row].titleName
-            cell.photoImageView.image = UIImage(named: datas[indexPath.row].imageName)
-
+            cell.nameLabel.text = datas1[indexPath.row].titleName1
+            cell.photoImageView.image = UIImage(named: datas1[indexPath.row].imageName1)
             return cell
+            
         case 2:
             let cell = tableView.dequeueReusableCell(withIdentifier: "DanhBaZaloCell", for: indexPath
             ) as! DanhBaZaloCell
-            cell.photoImageView.image = UIImage(named: datas[indexPath.row].imageName)
-            cell.nameLabel.text = datas[indexPath.row].titleName
+            
+            cell.nameLabel.text = datas2[indexPath.row].title2
+            cell.photoImageView.image = UIImage(named: datas2[indexPath.row].imageName2)
             return cell
+            
         default:
             return UITableViewCell()
         }

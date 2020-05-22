@@ -16,7 +16,10 @@ class DanhBaZaloCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        photoImageView.layer.cornerRadius = 60
+//        photoImageView.layer.cornerRadius = 60
+        photoImageView.layer.cornerRadius = photoImageView.bounds.height/1
+        
+        photoImageView.layer.masksToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

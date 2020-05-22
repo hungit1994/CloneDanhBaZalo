@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE306BB124781249007A88EB /* DanhBaNew1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE306BB024781249007A88EB /* DanhBaNew1.swift */; };
+		CE306BB32478160E007A88EB /* DanhBaNew2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE306BB22478160E007A88EB /* DanhBaNew2.swift */; };
 		CE49A0B92476AE3A00C8D48A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49A0B82476AE3A00C8D48A /* AppDelegate.swift */; };
 		CE49A0BB2476AE3A00C8D48A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49A0BA2476AE3A00C8D48A /* SceneDelegate.swift */; };
 		CE49A0BD2476AE3A00C8D48A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49A0BC2476AE3A00C8D48A /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE306BB024781249007A88EB /* DanhBaNew1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanhBaNew1.swift; sourceTree = "<group>"; };
+		CE306BB22478160E007A88EB /* DanhBaNew2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanhBaNew2.swift; sourceTree = "<group>"; };
 		CE49A0B52476AE3A00C8D48A /* DanhBaZaloTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanhBaZaloTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE49A0B82476AE3A00C8D48A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE49A0BA2476AE3A00C8D48A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				CE49A0CE2476AF5000C8D48A /* DanhBaZaloCell.swift */,
 				CE49A0CF2476AF5000C8D48A /* DanhBaZaloCell.xib */,
 				CE49A0D22476D17200C8D48A /* DanhBaNew.swift */,
+				CE306BB024781249007A88EB /* DanhBaNew1.swift */,
+				CE306BB22478160E007A88EB /* DanhBaNew2.swift */,
 			);
 			path = DanhBaZaloTableViewCell;
 			sourceTree = "<group>";
@@ -148,9 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE306BB124781249007A88EB /* DanhBaNew1.swift in Sources */,
 				CE49A0BD2476AE3A00C8D48A /* ViewController.swift in Sources */,
 				CE49A0B92476AE3A00C8D48A /* AppDelegate.swift in Sources */,
 				CE49A0D32476D17200C8D48A /* DanhBaNew.swift in Sources */,
+				CE306BB32478160E007A88EB /* DanhBaNew2.swift in Sources */,
 				CE49A0BB2476AE3A00C8D48A /* SceneDelegate.swift in Sources */,
 				CE49A0D02476AF5000C8D48A /* DanhBaZaloCell.swift in Sources */,
 			);
